@@ -102,7 +102,7 @@ As we indicated above, this process doesn't always work. For example, 196 seems 
 
 Make sure you have a thorough pencil and paper understanding of the problem before you even begin to think about coding.
 
-### Structuring your Solition
+### Structuring your Solution
 
 A note on how to structure your solution. A NumPal object MUST have four attributes: the current number, its reverse, the String version of the current number, and String version of the reverse of the current number. The numbers should be of type long, not int.
 
@@ -126,7 +126,7 @@ Your submitted code must implement the following methods:
 
 - Implement the next() method, which - given a NumPal object - returns the next NumPal object according to the "reverse and add" method described above.
 
-- Implement a reverseString method, which takes a String, say s, as an argument, and returns the reverse of s. Thus reverseString("aabcd") should return the String dcbaa. The code you submit should use this method in an essential way. This method appears as an exercise at the end of Chapter 5 in the textbook.
+- Implement a reverseString method, which takes a String, say s, as an argument, and returns the reverse of s. Thus reverseString("aabcd") should return the String dcbaa. The code you submit should use this method in an essential way. This method appears as an exercise in section 4.3.2 in the textbook
 
 One final comment. There are clearly many ways to structure a solution to this problem. We've chosen one, and you need to adhere to the pattern we've spelled out above. You may not alter the driver class in any way.
 
